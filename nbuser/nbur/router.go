@@ -5,7 +5,7 @@
 // @TermsOfServiceUrl http://beego.me/
 // @License Apache 2.0
 // @LicenseUrl http://www.apache.org/licenses/LICENSE-2.0.html
-package routers
+package nbur
 
 import (
 
@@ -17,7 +17,7 @@ _ "github.com/NoneBorder/bee-modules/doralog"
 
 )
 
-func init() {
+func RegisterRouter() {
 	beego.AddNamespace(
 		beego.NewNamespace("/api",
 			beego.NSNamespace("/wx",
