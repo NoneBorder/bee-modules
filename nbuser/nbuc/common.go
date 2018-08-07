@@ -3,7 +3,6 @@ package nbuc
 import (
 	"encoding/json"
 
-	"github.com/NoneBorder/bee-modules/nbbase"
 	"github.com/NoneBorder/bee-modules/nbuser/nbum"
 	"github.com/NoneBorder/bee-modules/nbuser/nbus"
 	"github.com/NoneBorder/dora/apiresp"

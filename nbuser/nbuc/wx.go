@@ -3,7 +3,6 @@ package nbuc
 import (
 	"fmt"
 
-	"github.com/NoneBorder/bee-modules/nbbase"
 	"github.com/NoneBorder/bee-modules/nbuser/nbum"
 	"github.com/silenceper/wechat/message"
 )
